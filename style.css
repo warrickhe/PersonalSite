@@ -1,0 +1,99 @@
+html {
+    background-color: #242424;
+    color: #c5b9b9;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-variant: slashed-zero;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+h1 {
+    color: #FFF;
+    font-variant: small-caps;
+    font-family: 'Blippo';
+}
+
+a:link {
+    color: #FFF;
+}
+
+a:visited {
+    color: rgb(86, 86, 168);
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: rgb(54, 54, 116);
+}
+
+img {
+    display: inline-block;
+    width: MAX(15%, 80PX);
+    height: MAX(15%, 80PX);
+    padding: 10px;
+}
+
+i {
+    font-size: 3em;
+}
+
+p {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    margin:auto;
+}
+
+thead {
+    background-color: rgb(51, 40, 28);
+}
+
+tfoot {
+    background-color: rgb(41, 18, 18);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.courses {
+    display: inline-block;
+    margin-right: 10px; /* add spacing between items */
+}
+
+.resume_section {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.resume_item {
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+#contacts {
+    align-items:center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
